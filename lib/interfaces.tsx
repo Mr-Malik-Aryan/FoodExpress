@@ -10,6 +10,13 @@ export interface User {
     age: number;
     image?: string;  // Optional field for image
   }
+  export interface Cart {
+    uid: number;
+    restaurantID: number;
+    itemname: string;
+    itemsprice: number;
+    quantity:number;
+  }
   export interface Restaurant {
     restaurantID: number;
     name: string;
@@ -17,7 +24,7 @@ export interface User {
     phoneNo: string;
     email_address: string;
     status: boolean;  // True for open, false for closed
-    image?: string;
+    image: string;
     rating:number;
     category:string;
     cpp:number;  // Optional field for image
@@ -30,7 +37,7 @@ export interface User {
     veg_nonveg: boolean;  // True for veg, false for non-veg
     preparationtime: number;  // Time in minutes
     itemstatus: boolean;  // True for available, false for not available
-    image?: string;  // Optional field for image
+    image: string;  // Optional field for image
   }
   export interface Rider {
     riderid: number;

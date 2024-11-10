@@ -57,11 +57,11 @@ export default function Restaurants() {
           <Card key={index} className="scale-90 md:scale-100 w-[400px] h-[400px] hover:scale-95 md:hover:scale-105 transition-all md:ml-10 mb:4 md:mb-10 border-2 border-slate-200 shadow-lg">
           <img className=" md:hover:scale-105 transition-all" src={res.image} alt="Restaurant Image"   style={{
     width: '100%',
-    height: '250px', // Adjust height as needed
+    height: '250px', 
     objectFit: 'cover',
-    borderRadius: '8px', // Rounded corners
+    borderRadius: '8px', 
     boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)', // Subtle shadow for depth
-  }} onClick={()=>{router.push(`/restaurants/${res.name}`)}} />
+  }} onClick={()=>{  router.push(`/restaurants/${res.name}`)}} />
           <CardContent className="p-2">
         <h3 className="text-lg md:text-xl font-semibold">{res.name}</h3>
         <p className="text-sm text-muted-foreground">
