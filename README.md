@@ -2,7 +2,7 @@
 
 FoodExpress is a food delivery web application built using Next.js and PostgreSQL. It allows users to browse restaurants, view menus, place orders, and track deliveries in real-time.
 
-![FoodExpress Banner](https://via.placeholder.com/800x400?text=FoodExpress)
+![FoodExpress Banner](https://github.com/Mr-Malik-Aryan/FoodExpress/blob/main/lib/Screenshot%20from%202025-03-06%2018-48-52.png)
 
 ## Features
 
