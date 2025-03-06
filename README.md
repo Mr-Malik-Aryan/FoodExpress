@@ -109,8 +109,4 @@ Aryan Malik - [GitHub](https://github.com/Mr-Malik-Aryan)
 
 Project Link: [https://github.com/Mr-Malik-Aryan/FoodExpress](https://github.com/Mr-Malik-Aryan/FoodExpress)
 
-## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc.
